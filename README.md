@@ -262,7 +262,7 @@ Please open an issue before submitting a pull request.
 | Handle | GitHub | Role |
 |--------|--------|------|
 | lajjadred | [@lajjadred](https://github.com/lajjadred) | Project lead |
-| 이채문 | [@CHML-real](https://github.com/CHML-real) | Mathematical algorithm development |
+| Chae Mun Lee | [@CHML-real](https://github.com/CHML-real) | Mathematical algorithm development |
 | CUBE | [@90cube](https://github.com/90cube) | Idea proposal and data collection |
 
 ---
