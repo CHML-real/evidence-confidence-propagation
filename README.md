@@ -1,5 +1,10 @@
 # evidence-confidence-propagation
 
+[![PyPI version](https://badge.fury.io/py/evidence-confidence-propagation.svg)](https://pypi.org/project/evidence-confidence-propagation/)
+[![Python](https://img.shields.io/pypi/pyversions/evidence-confidence-propagation)](https://pypi.org/project/evidence-confidence-propagation/)
+[![Tests](https://github.com/CHML-real/evidence-confidence-propagation/actions/workflows/tests.yml/badge.svg)](https://github.com/CHML-real/evidence-confidence-propagation/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > A Python package for computing **evidence-weighted confidence scores** along causal chains and DAG structures using residue theory and ladder operators.
 
 Instead of treating confidence as a simple count or average, `evidence-confidence-propagation` models how trustworthiness propagates through a causal chain — accounting for source reliability, chain position, and singular boundary conditions.
