@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "evidence-confidence-propagation"
+version = "0.1.0"
+description = "Evidence-weighted confidence propagation along causal chains using residue theory and ladder operators."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = [
+    "confidence",
+    "propagation",
+    "evidence",
+    "causal",
+    "residue",
+    "ladder operator",
+    "bayesian",
+    "graph",
+    "narrative",
+    "timeline",
+    "worldbuilding",
+    "belief",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/CHML-real/evidence-confidence-propagation"
+Repository = "https://github.com/CHML-real/evidence-confidence-propagation"
+Issues = "https://github.com/CHML-real/evidence-confidence-propagation/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "tox>=4.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["ecp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
